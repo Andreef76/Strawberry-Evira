@@ -978,8 +978,6 @@ blockquote {
 .item-wrapper:has(a):hover img {
   filter: brightness(0.9);
 }
-
-
 section.display-7 {
   display: none !important;
 }
