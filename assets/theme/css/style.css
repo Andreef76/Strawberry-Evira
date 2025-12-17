@@ -964,6 +964,21 @@ blockquote {
 	left: -2400px;
 }
 
+.item-wrapper {
+  transition: all 0.25s ease;
+  border: 2px solid transparent;
+}
+
+.item-wrapper:hover {
+  transform: scale(1.03);               /* слегка увеличиваем */
+  border-color: #cfcfcf;                /* лёгкая рамка */
+  background-color: rgba(0, 0, 0, 0.04); /* чуть темнее фон */
+}
+
+.item-wrapper:hover img {
+  filter: brightness(0.9);              /* слегка затемняем картинку */
+}
+
 section.display-7 {
   display: none !important;
 }
