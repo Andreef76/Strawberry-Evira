@@ -964,20 +964,21 @@ blockquote {
 	left: -2400px;
 }
 
-.item-wrapper {
+.item-wrapper:has(a) {
   transition: all 0.25s ease;
   border: 2px solid transparent;
 }
 
-.item-wrapper:hover {
-  transform: scale(1.03);               /* слегка увеличиваем */
-  border-color: #cfcfcf;                /* лёгкая рамка */
-  background-color: rgba(0, 0, 0, 0.04); /* чуть темнее фон */
+.item-wrapper:has(a):hover {
+  transform: scale(1.03);
+  border-color: #cfcfcf;
+  background-color: rgba(0, 0, 0, 0.04);
 }
 
-.item-wrapper:hover img {
-  filter: brightness(0.9);              /* слегка затемняем картинку */
+.item-wrapper:has(a):hover img {
+  filter: brightness(0.9);
 }
+
 
 section.display-7 {
   display: none !important;
