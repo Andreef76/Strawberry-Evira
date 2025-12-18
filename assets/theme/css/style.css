@@ -963,6 +963,7 @@ blockquote {
 	top: 0;
 	left: -2400px;
 }
+
 section.display-7 {
   display: none !important;
 }
@@ -982,7 +983,6 @@ section.display-7 {
   height: 2px;
   background-color: #622d36;
 }
-
 .item-wrapper {
   transition: all 0.25s ease;
   border: 2px solid transparent;
